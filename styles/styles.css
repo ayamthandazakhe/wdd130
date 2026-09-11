@@ -1,12 +1,11 @@
 main {
     max-width: 840px;
     margin: 0 auto;
-    .
 }
 
 nav {
     background-color: #333;
-    padding: n10px;
+    padding: 10px;
 }
 
 nav a {
