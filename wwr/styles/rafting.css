@@ -1,9 +1,11 @@
 /* Step 4.3: Define CSS Variables /*
 :root {
-    --primary-color: #005f73;
-    --accent1-color: #94d2bd;
-    --heading-font: 'Arial', sans-serif;
-    --body-font: 'Helvetica', sans-serif;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 /* Step 4.4 Reset CSS Box Model */
@@ -16,7 +18,7 @@
 /* Step 4.5: Document Body Font and Text Color */
 body {
     font-family: var(--body-font);
-    color: vvar(--accent1-color);
+    color: var(--accent1-color);
 }
 
 /* Step 4.6: Page Width and Centering */
@@ -33,6 +35,14 @@ h2 {
     color: var(--primary-color);
 }
 
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
 /* Step 4.9: Remove underlines from Social Media Nav Links*?
 .socialmedia a {
     text-decoration: none;
@@ -45,22 +55,27 @@ h2 {
 
 /* Step 5.2: Hero Image Rules*/
 .hero img {
-    display: block width: 100% height: auto;
+    display: block width: 100%;
+    height: auto;
 }
 
 /* Step 5.3: Hero Heading Absolute Styling Over Image */
 .hero h1 {
     position: absolute;
-    top: 20px width: 100% text-align: center;
-    background-color: rgba(0, 95, 115, 0.7);
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
     /* Translucent background utilizing primary color */
     color: #fff;
-    padding: 10px 0;
 }
 
 /* Step 5.4: Hero Article And Insert Image Layout */
 .hero article {
-    /* Custom layout styling can go here */
+    position: absolute;
+
 }
 
 .hero article img {
