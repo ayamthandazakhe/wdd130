@@ -1,0 +1,70 @@
+/* Step 4.3: Define CSS Variables /*
+:root {
+    --primary-color: #005f73;
+    --accent1-color: #94d2bd;
+    --heading-font: 'Arial', sans-serif;
+    --body-font: 'Helvetica', sans-serif;
+}
+
+/* Step 4.4 Reset CSS Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Step 4.5: Document Body Font and Text Color */
+body {
+    font-family: var(--body-font);
+    color: vvar(--accent1-color);
+}
+
+/* Step 4.6: Page Width and Centering */
+header,
+main,
+footer {
+    max-width: 840px margin: 0 auto;
+}
+
+/*Step 4.7: Heading Fonts and Text Colors */
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Step 4.9: Remove underlines from Social Media Nav Links*?
+.socialmedia a {
+    text-decoration: none;
+}
+
+/*Step 5.1: Hero Container Layout Positon*/
+.hero {
+    position: relative;
+}
+
+/* Step 5.2: Hero Image Rules*/
+.hero img {
+    display: block width: 100% height: auto;
+}
+
+/* Step 5.3: Hero Heading Absolute Styling Over Image */
+.hero h1 {
+    position: absolute;
+    top: 20px width: 100% text-align: center;
+    background-color: rgba(0, 95, 115, 0.7);
+    /* Translucent background utilizing primary color */
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Step 5.4: Hero Article And Insert Image Layout */
+.hero article {
+    /* Custom layout styling can go here */
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 15px;
+}
