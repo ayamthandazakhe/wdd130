@@ -97,9 +97,6 @@ article {
     display: flex;
     gap: 15px;
     justify-content: center;
-}
-
-.social-icon {
     width: 40px;
     height: auto;
 }
