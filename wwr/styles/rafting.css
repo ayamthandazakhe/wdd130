@@ -92,3 +92,14 @@ article {
     width: 125px;
     margin-left: 15px;
 }
+
+.social-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 40px;
+    height: auto;
+}
