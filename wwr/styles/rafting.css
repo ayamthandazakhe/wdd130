@@ -93,10 +93,13 @@ article {
     margin-left: 15px;
 }
 
-.socialmedia img {
+.socialmedia {
     display: flex;
     gap: 15px;
     justify-content: center;
+}
+
+.socialmedia img {
     width: 40px;
     height: auto;
 }
