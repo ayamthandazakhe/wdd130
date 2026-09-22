@@ -1,40 +1,45 @@
-/* Step 4.3: Define CSS Variables /*
+/* CSS RESET / VARIABLES /*
+
 :root {
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
-    --accent1-color: #264653;
-    --accent2-color: #e9c46a;
-    --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    --primary-color: #0b3d3b;
+    --secondary-color: #4f772d;
+    --accent1-color: #90be6d;
+    --accent2-color: #f9c74f;
+
+
+    --heading-font: "Trebuchet MS", sans-serif;
+    --body-font: Arial, sans-serif;
 }
 
-/* Step 4.4 Reset CSS Box Model */
+/* ALL ELEMENTS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Step 4.5: Document Body Font and Text Color */
+/* BODY */
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
 
-/* Step 4.6: Page Width and Centering */
+/* HEADER, MAIN, FOOTER */
 header,
 main,
 footer {
-    max-width: 840px margin: 0 auto;
+    max-width: 840px;
+    margin: 0 auto
 }
 
-/*Step 4.7: Heading Fonts and Text Colors */
+/* Heading Fonts and Text Colors */
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
+/* NAV, P, SECTION, ARTICLE */
 nav,
 p,
 section,
@@ -43,23 +48,24 @@ article {
     padding: 8px;
 }
 
-/* Step 4.9: Remove underlines from Social Media Nav Links*?
+/* SOCIAL MEDIA LINKS */
 .socialmedia a {
     text-decoration: none;
 }
 
-/*Step 5.1: Hero Container Layout Positon*/
+/* HERO */
 .hero {
     position: relative;
 }
 
-/* Step 5.2: Hero Image Rules*/
+/* Hero Image Rules */
 .hero img {
-    display: block width: 100%;
+    display: block;
+    width: 100%;
     height: auto;
 }
 
-/* Step 5.3: Hero Heading Absolute Styling Over Image */
+/* Hero Heading Absolute Styling Over Image */
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -68,6 +74,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
+
     /* Translucent background utilizing primary color */
     color: #fff;
 }
@@ -75,9 +82,14 @@ article {
 /* Step 5.4: Hero Article And Insert Image Layout */
 .hero article {
     position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
 
 }
 
+/* Image inside hero article */
 .hero article img {
     float: right;
     width: 125px;
