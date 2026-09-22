@@ -93,13 +93,15 @@ article {
     margin-left: 15px;
 }
 
-.socialmedia {
+.social-links,
+footer div {
     display: flex;
     gap: 15px;
     justify-content: center;
 }
 
-.socialmedia img {
-    width: 40px;
-    height: auto;
+footer img {
+    height: 24px;
+    width: auto;
+    object-fit: contain;
 }
