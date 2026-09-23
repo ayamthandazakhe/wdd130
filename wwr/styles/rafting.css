@@ -48,10 +48,6 @@ p {
     padding: 8px;
 }
 
-header nav {
-    text-align: center;
-}
-
 header nav a {
     display: block;
     margin: 10px 0;
