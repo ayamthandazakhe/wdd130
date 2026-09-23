@@ -48,6 +48,11 @@ p {
     padding: 8px;
 }
 
+header nav a {
+    display: block;
+    margin: 10px 0;
+}
+
 /* SOCIAL MEDIA LINKS */
 .socialmedia a {
     text-decoration: none;
@@ -123,5 +128,4 @@ footer .socialmedia a {
 footer .socialmedia img {
     height: 50px;
     width: 50px;
-    object-fit: contain;
-}
+    object-fit: contain
