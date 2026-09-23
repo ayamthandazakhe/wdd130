@@ -53,6 +53,18 @@ header nav a {
     margin: 10px 0;
 }
 
+header nav {
+    text-align: left;
+}
+
+header nav ul {
+    padding-left: 20px;
+}
+
+header nav li {
+    margin: 8px 0;
+}
+
 /* SOCIAL MEDIA LINKS */
 .socialmedia a {
     text-decoration: none;
