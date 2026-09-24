@@ -44,12 +44,6 @@ p {
     padding: 0;
 }
 
-header,
-footer {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
 Footer {
     margin-top: 20px;
     border-top: 1px solid #333;
