@@ -5,83 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Meta Description (Step 3.2)-->
     <meta name="description"
-      content="learn more about White Water Rafting Company, our history, and our mission to provide thrilling and safe river adventures.">
-
-    <!--Meta Author (Step 3.3)-->
+      content="Learn more about White Water Rafting Company, our history, and our mission to provide thrilling and safe river adventures.">
     <meta name="author" content="Ayamthanda Zakhe">
 
     <title>White Water Rafting Company - About Us</title>
 
-    <!--Link to external CSS (Step 4.2)-->
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <!--HeaderElement (Step 3.5)-->
-    <header>
-        <!--Rafting Site Logo-->
-        <img src="images/z-wwr-oars.png" alt="White Water Rafting Company Logo">
+    <div id="content">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/z-wwr-oars.png" alt="White Water Rafting Company Logo">
+                </a>
+            </div>
 
-        <!--Navigation Links-->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--Main Content Element (Step 3.6)-->
-    <main>
-        <!--Hero Section with Overlays (Step 3.6.1 & Step 5)-->
-        <div class="hero">
-            <img src="images/hero2.jpg" alt="White water rafting adventure banner">
-            <h1>White Water Rafting Company</h1>
-            <article>
-                <img src="images/employee.jpg"
-                  alt="A smiling, happy employee ready to guide your next adventure">
-                <p>Our mission is to provide thrilling, safe, andd unforgettable white water
-                    rafting experiences for adventures of all skill levels. Founded by
-                    passionate river guides, we aim to connect people with the raw beauty of
-                    nature while fostering a spirit of adventure and teamwork on every river we
-                    run. </p>
-            </article>
-        </div>
-        <article>
-            <section>
-                <h2>History</h2>
-                <p>What started in 2010 as a small group of friends guiding weekend trips has
-                    grown
-                    into a premier white water rafting company. Over the past decade, we have
-                    expanded our routes across multiple rivers, trained dozens of certified
-                    guides,
-                    and safely shared the rush of the rapids with thousands of happy adventurers
-                    from around the world.</p>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <img src="images/hero2.jpg" alt="White water rafting adventure banner">
+
+                <div class="hero-content">
+                    <h1>White Water Rafting Company</h1>
+
+                    <article>
+
+                        <p>
+                            Our mission is to provide thrilling, safe, and unforgettable white water
+                            rafting experiences for adventurers of all skill levels. Founded by
+                            passionate river guides, we aim to connect people with the raw beauty of
+                            nature while fostering a spirit of adventure and teamwork on every river
+                            we
+                            run.
+                        </p>
+
+                        <img src="images/employee.jpg"
+                          alt="A smiling employee ready to guide your next adventure">
+                    </article>
+                </div>
             </section>
-            <section>
+
+            <section class="history">
+
+                <div class="history-title">
+                    <h2>History</h2>
+                </div>
+
+                <div class="history-text-left">
+                    <p>
+                        What started in 2010 as a small group of friends guiding weekend trips has
+                        grown into a premier white water rafting company.
+                    </p>
+                </div>
+
+                <div class="history-image">
+                    <img src="images/history.jpg" alt="White water rafting on a river">
+                </div>
+
+                <div class="history-text-right">
+
+                    <p> Over the past decade, we
+                        have expanded our routes across multiple rivers, trained dozens of certified
+                        guides, and safely shared the rush of the rapids with thousands of happy
+                        adventurers from around the world.
+                    </p>
+                </div>
+            </section>
+
+            <section class="adventures">
                 <h2>Adventure Awaits You!</h2>
-                <!--This section content left intentionally empty per step 3.3 instructions-->
-            </section>
-        </article>
-    </main>
-    <footer>
-        <p>&copy; 2026 🌍 White Water Rafting Company 🌍 Ayamthanda Zakhe</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook">
-            </a>
-            <a href="https://x-twitter.com">
-                <img src="images/twitter.png" alt="X-twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram">
-            </a>
 
-        </nav>
-    </footer>
+                <div class="adventure-grid">
+                    <figure>
+                        <img src="images/big-rapids.jpg" alt="Rafters enjoying white water rapids">
+                        <figcaption>Big Rapids</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/mountain-river.jpg" alt="Illustration of a mountain river">
+                        <figcaption>Mountain River</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/river-explorer.jpg" alt="Illustration of a river explorer">
+                        <figcaption>River Explorer</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/family-trip.jpg"
+                          alt="Illustration of a family rafting trip">
+                        <figcaption>Family Trip</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/fast-water.webp" alt="Illustration of fast white water">
+                        <figcaption>Fast Water</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 🌍 White Water Rafting Company 🌍 Ayamthanda Zakhe</p>
+
+            <nav class="socialmedia" aria-label="Social media">
+                <a href="https://facebook.com" target="_blank" rel="noopener">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://x-twitter.com" target="_blank" rel="noopener">
+                    <img src="images/twitter.png" alt="X">
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
+    </div>
 </body>
 
 </html>
