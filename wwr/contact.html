@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Step 2: Title and Meta Description adapted for the Contact page -->
+    <title>Contact Us - White Water Rafting Company</title>
+    <meta name="description"
+      content="Get in touch with the White Water Rafting Company. Find our location, contact details, employee profiles, or send us a message  using our enquiry form.">
+    <link rel="stylesheet" href="rafting.css">
+</head>
+
+<body>
+    <!--Step 3.1: Standard Header and Navigation-->
+    <header>
+        <div class="logo">
+            <img src="images/z-wwr-oars.png" alt="White Water Rafting Company Logo">
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a class="active" href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <!--Step 3.2: Company Information Section-->
+        <section class="company-info">
+            <h2>Our Location and Contact Info</h2>
+            <address>
+                <p><strong>Address:</strong> 123 River Run Road, Canyon Valley, CO 80123</p>
+                <p><strong>Phone:</strong> + (800) 555-Raft</p>
+                <p><strong>Email:</strong> <a
+                      href="mailto: info@whitewaterraftco.com">info@whitewaterraftco.com</a></p>
+            </address>
+
+            <!--Small Embedded Google Map (Note: Inline style="border:0" removed per instructions)-->
+            <div class="map-container">
+                <iframe src="https://google.com" width="400" height="300" allowfullscreen=""
+                  loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <!--Step 3.4: Contact Form Section-->
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="user-name">Name:</label>
+                    <input type="text" id="user-name" name="userName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="user-email">Email Address:</label>
+                    <input type="email" id="user-email" name="userEmail" required>
+                </div>\
+
+                <fieldset class="form-group">
+                    <legend>Purpose of Message:</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" checked> General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose-" value="suggestion"> Website Suggestion
+                    </label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Submit Message</button>
+            </form>
+        </section>
+        <!-- Step 3.3: Employee Profile Images Section-->
+        <section class="employee-profiles">
+            <h2>Our Team</h2>
+            <div class="profile-grid">
+
+                <figure class="profile-card">
+                    <img src="images/employee1.jpg" alt="Portrait of John Doe">
+                    <figcaption>
+                        <h3>John Doe</h3>
+                        <p class="title">Lead River Guide</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="profile-card">
+                    <img src="images/employee2.jpg" alt="Portrait of Jane Smith">
+                    <figcaption>
+                        <h3>Jane Smith</h3>
+                        <p class="title">Operations Manager</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="profil-card">
+                    <img src="images/employee3.jpg alt=Portrait of Alex Jones">
+                    <figcaption>
+                        <h3>Alex Jones</h3>
+                        <p class="title">Safety Coordinator</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <!--Step 3.1: Standard Footer -->
+    <footer>
+        <p>&copy; 2026 🌍 White Water Rafting Company 🌍 Ayamthanda Zakhe</p>
+
+        <nav class="socialmedia" aria-label="Social media">
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://x-twitter.com" target="_blank" rel="noopener">
+                <img src="images/twitter.png" alt="X">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+    </div>
+</body>
+
+</html>
